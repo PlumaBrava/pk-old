@@ -27,7 +27,9 @@ refAlertasReposicion = firebase.firestore().collection('Alertas-reposicion');
 refEmpresasMail = firebase.firestore().collection('Empresas-Mails');
 reffcmTokens = firebase.firestore().collection('fcmTokens');
 
-  constructor(  private db: AngularFireDatabase,public authService:AuthService, private  fs: AngularFirestore
+  constructor(  private db: AngularFireDatabase,
+              public authService:AuthService, 
+              private  fs: AngularFirestore
    // private userCollection: AngularFirestoreCollection<User>
 
 

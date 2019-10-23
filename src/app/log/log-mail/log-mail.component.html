@@ -1,0 +1,59 @@
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- BIENVENIDA -->
+        <div class="col-lg-9  order-lg-2 caja_derecha"><!-- .bg-1 / .bg-2-->
+           <!--  <div class=" caja_texto">
+                <h3 class="text-center">Calidad en Nutrición Animal</h3>
+                <p class=" subtitulo text-center">Nuestra propuesta es ayudarlo a identificar las necesidades tecnológicas de su empresa, con el propósito de lograr respuestas rápidas, eficientes y rentables.</p>
+            </div> -->
+            <div  class="row bienvenida bg-3">
+                  
+                <div class="col-lg-10 "  ></div>
+                <div class="col-lg-2   " style="display: flex; direction: row" >
+                    <div class="columnaOcre">    </div>
+                    <div class="columnaVerde text-center"> 
+                        <h2 > Nutrición Animal</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- FIN de BIENVENIDA -->
+
+        <!-- ESTRUCTURA LOGIN/REG -->
+        <div class="col-lg-3 order-lg-1 login">
+            <div class="inner-login">
+
+                <div class="text-center"><a href="#" class="logo">Nutral Mix &reg;</a></div>
+
+                <!-- LOGIN -->
+                <h3>Bienvenido</h3>
+                <form [formGroup]="crearLabelForm">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su e-mail"  formControlName="email" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña"  formControlName="clave" autocomplete="off">
+                </div>
+                
+                <div class="form-group clearfix">
+                    <a href="javascript:;" class="forgot" (click)=resetPassword() >¿Olvidaste tu contraseña?</a>
+                    <button class="btn btn-primary float-right" style="padding: 16px 39px;" (click)="signIn()">Ingresar</button>
+                </div>
+
+                </form>
+                <span class="separator">o</span>
+                <a href="javascript:;" class="google" (click)=  loginGoogle()>Ingresar con Google  </a>
+                <p>Todavía no tenés cuenta? <a href="javascript:;" (click)="registrarme()">Registrarse</a></p>
+                <!-- FIN de LOGIN -->
+
+
+            </div>
+        </div>
+        <!-- FIN de ESTRUCTURA LOGIN/REG -->
+
+    </div>
+</div>

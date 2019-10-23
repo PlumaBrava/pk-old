@@ -1,0 +1,50 @@
+/* ==========================================================================
+   #TITLE
+   ========================================================================== */
+/*.title {
+  font-size: 24px;
+  color: #24D;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+*/
+
+/* ==========================================================================
+   #CARD
+   ========================================================================== */
+/*.card {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}*/
+
+/*.card-3 {
+  background: #EF0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  display: table;
+}*/
+
+/*.card-3 .card-heading {
+  background: url("../../../assets/images/nutralmix.jpg") top left/cover no-repeat;
+  display: table-cell;
+  width: 50%;
+}*/
+
+/*.card-3 .card-body {
+  padding: 57px 65px;
+  padding-bottom: 65px;
+  display: table-cell;
+}
+*/
+
+@import url("../../../styles/global/_buttons.css");
+@import url("../../../styles/global/_login.css");
+@import url("../../../styles/global/_bienvenida.css");

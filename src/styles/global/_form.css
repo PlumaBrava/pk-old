@@ -1,0 +1,77 @@
+/*FORM*/
+
+.form-check .form-control,
+.form-group .form-control{
+    border-color:#d8e1e5;
+    height: 55px;
+    margin-right:15px;
+    margin-bottom:12px;
+    color:#787D7F;   /*color de las letras en las cajas de formularios*/
+    font-size:14px;
+    font-family:'Lato', Arial;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    background: #FFF;
+}
+.form-check label,
+.form-group label{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Lato', Arial;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #090a0a;
+    margin-bottom:7px;
+    display:block;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  /*color: #b5bdc1;*/
+  color: #93999C;
+  /*color: red;*/
+  opacity: 1; /* Firefox */
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  /*color: #b5bdc1;*/
+  color: #93999C;
+  /*color: red;*/
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  /*color: #b5bdc1;*/
+  color: #93999C;
+  /*color: red;*/
+}
+
+div.form-control{
+    padding-right:6px;
+}
+div.form-control input{
+    height:100%;
+    border:0px;
+    width:calc(100% - 94px);
+    float:left;
+}
+div.form-control .btn.btn-primary{
+    width: 80px;
+    padding: 16px 20px;
+    float: right;
+    font-size:12px;
+    line-height: 40px;
+    height: 40px;
+    padding:0;
+    text-align: center;
+    margin:0;
+
+}
+
+.calendar{
+   margin-right: 0px !important; 
+   margin-bottom: 0px !important; 
+}
+
+ 

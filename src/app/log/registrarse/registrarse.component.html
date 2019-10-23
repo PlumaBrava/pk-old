@@ -1,0 +1,83 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- BIENVENIDA -->
+        <!-- <div class="col-lg-8 order-lg-2 bienvenida bg-1">        </div> -->
+        <!-- FIN de BIENVENIDA -->
+
+
+
+
+ <!-- BIENVENIDA -->
+        <div class="col-lg-9  order-lg-2 caja_derecha"><!-- .bg-1 / .bg-2-->
+           <!--  <div class=" caja_texto">
+                <h3 class="text-center">Calidad en Nutrición Animal</h3>
+                <p class=" subtitulo text-center">Nuestra propuesta es ayudarlo a identificar las necesidades tecnológicas de su empresa, con el propósito de lograr respuestas rápidas, eficientes y rentables.</p>
+            </div> -->
+            <div  class="row bienvenida bg-1">
+                  <div class="col-lg-10 "  ></div>
+                <div class="col-lg-2   " style="display: flex; direction: row" >
+                    <div class="columnaOcre">    </div>
+                    <div class="columnaVerde text-center"> 
+                        <h2 > Nutrición Animal</h2>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+       <!--  <div class="col-lg-2  order-lg-3 " style="display: flex; direction: row" >
+           <div class="columnaOcre">    </div>
+           <div class="columnaVerde text-center"> 
+
+         
+           <h2 > Nutrición Animal</h2> </div>
+
+        </div> -->
+        <!-- FIN de BIENVENIDA -->
+
+
+
+
+
+
+
+
+        <!-- ESTRUCTURA LOGIN/REG -->
+        <div class="col-lg-3 order-lg-1 login">
+            <div class="inner-login">
+
+                <a href="http://www.nutralmix.com.ar" class="logo">Nutral Mix &reg;</a>
+
+               
+                <!-- REGISTRACION -->
+                <h3>Registración</h3>
+                <form [formGroup]="crearLabelForm"   (ngSubmit)="signUp()">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su e-mail"  formControlName="email" autocomplete="off" (keydown.enter)="onKeydown($event)">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="clave" placeholder="Contraseña"  formControlName="clave" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="confirmaClave"  placeholder="Repetir Contraseña"  formControlName="confirmaClave" autocomplete="off">
+                </div>
+                 <div class="form-group clearfix">
+                    <input  class="btn btn-primary" type="submit" value="Enviar" >
+                    
+                </div>
+                <span class="separator">o</span>
+                <a href="javascript:;" class="google" (click)=  loginGoogle()>Registrarse con Google  </a>
+                <p>Ya tenés un cuenta? <a href="javascript:;" (click)="loginMail()">Login</a></p>
+
+                </form>
+               
+                <!-- FIN de REGISTRACION -->
+
+            </div>
+        </div>
+        <!-- FIN de ESTRUCTURA LOGIN/REG -->
+
+    </div>
+</div>

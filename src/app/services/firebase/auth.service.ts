@@ -297,7 +297,7 @@ getPefil(auth): Observable<any> {
   console.log('getUser');
   return new Observable((observer) => {
 
-    this.fs.collection('Users-Logistica',ref => ref.where('email', '==' ,auth.email))
+    this.fs.collection('Users',ref => ref.where('email', '==' ,auth.email))
     .snapshotChanges()
     // .valueChanges()
     .subscribe(datosDeUsuario=>{

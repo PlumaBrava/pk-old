@@ -13,6 +13,9 @@ firebase init
 //https://github.com/angular/angularfire/blob/HEAD/docs/install-and-setup.md
 npm install firebase @angular/fire --save
 
+reemplazar en package.json firebase por  "firebase": "^6.2.4", (la última versión da error)
+luego ejecutar:  npm install-> con esto instala todos los pluggin del package.json
+
 // compilación angular
 
 ng build (desarrollo) relacionado con src/environments/environment.ts
@@ -27,3 +30,13 @@ por     "npm --prefix \"%RESOURCE_DIR%\" run lint"
 // exlcuir de git en .gitignore
     # funtions
     /functions/node_modules/
+
+
+//git clonar el repositorio
+
+git clone https://github.com/PlumaBrava/pk.git    
+pull: traer del orgin al master
+push: enviar del master al origin
+
+// instalación de ng Boostrap
+npm install --save @ng-bootstrap/ng-bootstrap

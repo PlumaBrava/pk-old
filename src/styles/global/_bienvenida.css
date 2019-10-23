@@ -1,0 +1,185 @@
+/*BIENVENIDA*/
+
+.bienvenida.bg-1{
+    /*background: url('../../assets/images/login/bg-1.jpg') bottom center no-repeat;*/
+    background: url('../../assets/images/login/bienvenida_3b.jpg') top center no-repeat;
+    /*background-size:cover;*/
+     background-size: 100% 100%;
+}
+.bienvenida.bg-2{
+    /*background: url('../../assets/images/login/bg-2.jpg') center center no-repeat;*/
+    background: url('../../assets/images/login/bienvenida_1b.jpg') center center no-repeat;
+    /*background-size:cover;*/
+     background-size: 100% 100%;
+}
+.bienvenida.bg-3{
+    /*background: url('../../assets/images/login/VACAS2.jpg') top center no-repeat;*/
+    /*background: url('../../assets/images/login/vaca3.jpg') top center no-repeat;*/
+    /*background: url('../../assets/images/login/nutricionAnimal3.png') top left no-repeat;*/
+    background: url('../../assets/images/login/bienvenida_2b.jpg') top left no-repeat;
+    /*background-size:cover;*/
+    /*background-size: contain;*/
+    background-size: 100% 100% ;
+    /*background-color: rgba(18,66,44);*/  /*Verde*/
+}
+
+.bienvenida .texto{
+    max-width:880px;
+    /*margin:60px;*/
+}
+.bienvenida .texto h3{
+    font-size: 65px;
+    line-height: 63px;
+    font-family: 'Lato', Arial;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    /*color: #1f2c46;   Dorado*/
+    color: rgba(18,66,44);
+    margin-bottom:28px;
+
+}
+.bienvenida .texto p{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'Lato', Arial;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom:28px;
+    color: #1f2c46;
+}
+/*@media (max-width: 991px){
+    .bienvenida .texto{
+        max-width: none;
+        padding: 80px 80px 60px;
+        background: rgba(255,255,255,0.7);
+        width: 100%;
+        margin: 15px 0;
+        border-radius: 5px;
+        position: relative;
+    }
+}*/
+
+
+.bienvenida.bg-3 .texto h3{
+    /*color:#FFF;*/
+    color:red;
+    /*color:#111;*/
+    text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.bienvenida.bg-3 .texto p{
+    color:#050505;
+    /*text-shadow: 0 1px 2px rgba(0,0,0,0.8);*/
+}
+
+.col-lg-8 .caja_derecha{
+
+    background-color: rgba(18,66,44); /*verde*/
+        /*padding: 0px -15px 0px -15px !important;*/
+     /*padding-right:-15px;*/
+}
+
+.caja_derecha img{
+    width: 103%;
+    height:  auto;
+ 
+      margin-right: 70px;
+    margin-left: -15px;
+   
+}
+.caja_texto{
+    background-color: #2929B0;
+        /*R: 88 G: 135 B: 115*/
+    background-color: rgba(18,66,44);
+    /*background-color: rgb(89,139,115);*/
+    padding: 0px;
+    margin-bottom: 0px;
+    /*border-radius: 10px;*/
+     margin-right: -15px;
+    margin-left: -15px;
+   
+}
+.caja_texto h3{
+   /*color:#BC9E56;*/ /*Dorado*/
+   color:rgba(212,187,142); /*dorado*/
+  /* color:rgba(18,66,44);*/ /*Verde*/
+   font-size: 2rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.caja_texto .subtitulo{
+    margin-left: 80px;
+    margin-right: 80px;
+    /*background-color: pink;*/
+    padding-bottom: 30px;
+}
+.caja_texto p{
+
+    /*background-color: orange;*/
+     /*color:#BC9E56;*/ /*Dorado*/
+    /*color:white;*/
+      color:rgba(222,231,229); /*blanco foto*/
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+        padding: 0px;
+    margin-bottom: 0px;
+   /* padding: 0px,125px,0px,125px;
+    margin: 0px,125px,0px,125px;*/
+}
+
+.col-lg-2{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px !important;
+     padding-left: 0px !important;
+}
+
+.columnaOcre{
+    /*background-color: #c6a057;*/
+     background-color: rgba(198,160,87, 0.5); 
+    width: 20%;
+}
+
+.columnaVerde{
+    /*background-color: #004e2d;*/
+    background-color: rgba(0,78,45, 0.8); 
+    width: 80%;
+}
+
+.columnaVerde h2{
+    color: white;
+ 
+    /*margin-left: 10%;*/
+    /*margin-top:55%;*/
+    margin: 0;
+     position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+@media (max-width: 991px){
+
+    .columnaVerde h2{
+        color: white;
+        margin-left: 10%;
+         margin-top:0%;
+        }
+
+    .columnaOcre{
+        display: none;
+        background-color:#004e2d;
+        width: 100%;
+    }
+
+    .columnaVerde{
+        background-color: #004e2d;
+        width: 100%;
+        height: 80px;
+    }
+    .col-lg-10{
+         display: none;
+    }
+}

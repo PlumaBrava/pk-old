@@ -1,0 +1,92 @@
+/*GENERAL*/
+.component{
+    padding-top:67px;
+}
+hr{
+    border-top: 1px solid #ebebef;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', Arial;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #090a0a;
+    margin-bottom:20px;
+}
+h1{
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 900;
+}
+h2{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 900;
+}
+h3{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+}
+h4{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+h5{
+
+}
+h6{
+
+}
+p{
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.2px;
+    font-size: 14.5px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#090a0a;
+}
+p a{
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.2px;
+    font-size: 14.5px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#24a744;
+    padding-right: 8px;
+}
+p a:hover{
+    color:#1e9b3a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a{
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.2px;
+    font-size: 14.5px;
+    line-height: 20px;
+    font-weight: 400;
+    color:;
+    color:#24a744;
+  
+}
+a:hover{
+    color:#1e9b3a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.borrar{
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.2px;
+    font-size: 14.5px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#D0350B;
+  
+}
+.borrar:hover{
+    color:#EA154C;
+    text-decoration: underline;
+    cursor: pointer;
+}

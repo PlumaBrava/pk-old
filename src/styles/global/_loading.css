@@ -1,0 +1,17 @@
+/*LOADING*/
+
+.loading{
+    display: inline-block;
+    width:66px;
+    height: 66px;
+    background:url('../../assets/images/general/im-loading.png') center center no-repeat;
+    -webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}

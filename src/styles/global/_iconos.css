@@ -1,0 +1,63 @@
+/*ICONOS*/
+
+.icono{
+    display: inline-block;
+    width:30px;
+    height:30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icono.ic-copy{
+    background-image:url('../../assets/images/iconos/ic-copy.png');
+}
+.icono.ic-delete{
+    background-image:url('../../assets/images/iconos/ic-delete.png');
+}
+.icono.ic-edit{
+    background-image:url('../../assets/images/iconos/ic-edit.png');
+}
+.icono.ic-trash{
+    background-image:url('../../assets/images/iconos/ic-trash.png');
+}
+.icono.ic-store{
+    background-image:url('../../assets/images/iconos/ic-store.png');
+    width:38px;
+}
+.icono.ic-truck-1{
+    background-image:url('../../assets/images/iconos/ic-truck-1.png');
+    width:38px;
+}
+.icono.ic-truck-2{
+    background-image:url('../../assets/images/iconos/ic-truck-2.png');
+    width:38px;
+}
+.icono.ic-truck-3{
+    background-image:url('../../assets/images/iconos/ic-truck-3.png');
+    width:38px;
+}
+
+.icono.flecha{
+    background-image:url('../../assets/images/general/flechaAtras16.png');
+    width:16px;
+}
+.icono.ic-confirmar{
+    background-image:url('../../assets/images/iconos/ic-confirmar-32.png');
+    width:38px;
+}
+
+.ic-calendario{
+    background-image:url('../../assets/images/iconos/ic-calendar-24.png');
+    width:24px;
+    height:24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icono.alarma{
+    background-image:url('../../assets/images/iconos/alarma32_32.png');
+     width:32px;
+    height:32px;
+   
+     background-repeat: no-repeat;
+    background-position: center center;
+}

@@ -1,0 +1,117 @@
+/*INNER LAYOUT*/
+
+.estructura{
+    width:100%;
+    background:url('../../assets/images/general/im-bg.jpg') top center no-repeat;
+    background-size:auto 136px;
+}
+
+.top-estructura{
+    height:108px;
+    padding:46px 0px 0px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 94%;
+    margin: 0 auto;
+}
+.top-estructura h2{
+    font-size:25px;
+    line-height: 28px;
+    color:#1f2c46;
+    float: left;
+}
+.top-estructura .etiqueta{
+    float: right;
+}
+
+.inner-estructura{
+    min-height: 100px;
+    max-width: 1200px;
+    width: 94%;
+    background: #FFF;
+    margin: 0 auto 40px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 27px rgba(208,208,234,0.3);
+}
+.inner-estructura > .col-md-6{
+    min-height: 100px;
+    border-right:1px solid #ebebef;
+}
+.inner-estructura > .col-md-6:last-child{
+    border-right:0px;
+}
+
+
+.inner-estructura > .col-md-6,
+.inner-estructura > .col-sm-12{
+    padding: 30px 37px;
+}
+
+
+.top-inner-estructura{
+    padding:10px 0px 0px;
+}
+.top-inner-estructura h3{
+    float: left;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top:4px;
+    margin-bottom:0;
+}
+.top-inner-estructura h3 b{
+    font-weight: 900;
+}
+.top-inner-estructura h3 p{
+    margin:0;
+}
+.top-inner-estructura .etiqueta{
+    float: right;
+}
+
+.table-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 25px 30px 15px;
+    border-radius:5px;
+    box-shadow: 0px 7px 20px rgba(208,208,234,0.2);
+    margin: 10px 0 20px;
+    transition: all 0.5s;
+}
+.table-body.highlight-opt:hover{
+    box-shadow: 0px 7px 20px rgba(208,208,234,0.6);
+}
+
+
+
+@media (max-width: 767px){
+    .inner-estructura > .col-md-6{
+        min-height: 0;
+        border-right:0px;
+    }
+    .inner-estructura > .col-md-6,
+    .inner-estructura > .col-sm-12{
+        padding: 15px 22px;
+    }
+    .table-body {
+        padding: 15px 20px 10px;
+    }
+}
+
+@media (min-width: 1366px){
+    .estructura{
+        background-size:100% auto;
+    }
+}
+
+
+
+.marginEnTitulo{
+    margin-left: 20px;
+}
+
+.textosNormalesEncabezado{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    /*background-color: red;*/
+}

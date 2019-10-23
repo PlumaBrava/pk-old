@@ -1,0 +1,62 @@
+<!-- <div class="modal-header" id="custom-modal-1">  -->
+<!--     <h4 class="modal-title" id="modal-title">{{titulo}}</h4>
+    <button type="button" class="close" aria-describedby="modal-title" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button> -->
+<!-- </div> -->
+<!-- <div class="modal-body">
+    <p><strong *ngIf="mensaje"> {{mensaje}} <span class="text-primary" *ngIf="name">"{{name}}"</span></strong></p>
+    <p>
+        <span class="text-danger" *ngIf="dato">"{{dato}}"</span>
+    </p>
+</div> -->
+<!-- <form>
+<div class="form-group">
+<label for="dateOfBirth">Date of birth</label>
+<div class="input-group">
+<input id="dateOfBirth" class="form-control" placeholder="yyyy-mm-dd" name="dp" [(ngModel)]="model"  ngbDatepicker #dp="ngbDatepicker">
+<div class="input-group-append">
+<button class="btn btn-outline-secondary calendar" (click)="dp.toggle()" type="button"></button>
+</div>
+</div>
+</div>
+</form> -->
+
+<!-- <div class="modal-footer">
+    <button type="button" class="btn btn-outline-secondary" (click)="modal.dismiss('cancel click')">Cancel</button>
+     <button type="button" class="btn btn-danger" (click)="modal.close({cause:'Ok click jj', date: model })">Ok</button>
+</div> -->
+
+<!--             <div class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document"> -->
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h2 class="modal-title">{{titulo}}</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                           <p>
+                                <strong *ngIf="mensaje"> {{mensaje}} 
+                                    <span class="text-primary" *ngIf="name">"{{name}}"</span>
+                                </strong>.
+                            </p>
+                           
+                           <p>
+                                <span class="text-danger" *ngIf="dato">"{{dato}}"</span>
+                            </p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" (click)="modal.dismiss('Aceptar click')" >Aceptar</button>
+           <!--                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+ -->                        </div>
+
+                    </div>
+  <!--               </div>
+            </div> -->
+
+      

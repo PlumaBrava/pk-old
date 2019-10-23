@@ -1,0 +1,77 @@
+<div class="component splicitud-empresa">
+
+    <!-- <app-header></app-header> -->
+
+    <div class="estructura">
+
+        <div class="top-estructura">
+
+            <h2>Solicitud para visualizar los datos de un cliente</h2>
+
+        </div>
+
+        <div class="row inner-estructura">
+
+            <div class="col-sm-12">
+
+                <div *ngIf="componenteHabilitado">
+
+                    <h3>Indique los siguientes datos. 
+                    	<!-- <div class="text-rigth"> -->
+                    	<!-- <span style="float: right;" class="etiqueta check" >Aprobado</span> -->
+                    	<span style="float: right;" class="etiqueta black" >Pendiente de Aprobacion</span>
+                    	<!-- </div> -->
+                    </h3>
+                     <div class="col-sm-12">
+                            <div *ngIf="mensaje" >{{mensaje}}</div>
+                    </div>
+
+                    <form [formGroup]="solicitud">
+                        <div class="form-group w-50">
+                            <label for="razonSocial">Razón Social</label>
+                            <input type="text" class="form-control" id="razonSocial" placeholder="Ingrese la Razón Social de la empresa" formControlName="razonSocial">
+
+                        </div>
+
+                        <div *ngIf=" (solicitud.controls.razonSocial.invalid && (solicitud.controls.razonSocial.dirty|| solicitud.controls.razonSocial.touched  ) )" class="alert alert-danger">
+                            Ingrese una Razón Social Válida
+                        </div>
+
+						<div class="form-group w-25">
+                            <label for="cuit">Cuit</label>
+                            <input type="text" class="form-control" id="cuit" placeholder="00-00000000-0" formControlName="cuit"  mask='00-00000000-0'>
+                        </div>
+                        <div *ngIf=" (solicitud.controls.cuit.invalid && (solicitud.controls.cuit.dirty|| solicitud.controls.cuit.touched  ) )" class="alert alert-danger">
+                            Ingrese un CUIT Valido
+                        </div>
+
+
+						<div class="form-group w-25">
+							<label for="comentario">Comentario:</label>
+  							<textarea class="form-control" rows="5" id="comentario" formControlName="comentario" placeholder="Deje Su Comentario"></textarea>
+                           
+                        </div>
+                        <div *ngIf=" (solicitud.controls.comentario.invalid && (solicitud.controls.comentario.dirty|| solicitud.controls.comentario.touched  ) )" class="alert alert-danger">
+                            Ingrese un comentario Válida
+                        </div>
+                        
+            
+                        <br>
+                        <div *ngIf="botonActivo">
+                        <!-- <div > -->
+                        <button (click)="enviarSolicitud()" class="btn btn-primary"  >Grabar</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <app-footer></app-footer> -->
+
+</div>
+

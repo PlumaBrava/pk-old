@@ -1,0 +1,22 @@
+/*ALERTAS*/
+
+.alerta{
+    padding:12px 20px;
+    font-family:'Arial',sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+.alerta.alerta-1{
+    background-color: #a6e0b4;
+    color:#468847;
+}
+.alerta.alerta-2{
+    background-color: #fceea4;
+    color:#c09853;
+}
+.alerta.alerta-3{
+    background-color: #f2dede;
+    color:#b94a48;
+}

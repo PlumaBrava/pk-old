@@ -1,0 +1,122 @@
+/*LOGIN*/
+
+.login{
+    height: 100%;
+    overflow-x: auto;
+}
+.login .inner-login{
+    width:100%;
+    max-width:320px;
+    margin:0 auto;
+    height: 100%;
+    padding:64px 0 60px;
+}
+
+.login a.logo{
+    display:block;
+    width:125px;
+    height:74px;
+    overflow:hidden;
+    text-indent: -999px;
+    background:url('../../assets/images/login/lg-nutralmix.png');
+    margin-bottom:60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login h3{
+    font-size: 27px;
+    line-height: 29px;
+    font-family: 'Lato', Arial;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #090a0a;
+    margin-bottom:28px;
+}
+
+.login .separator{
+    background: url('../../assets/images/login/im-sep.png') center center no-repeat;
+    width: 100%;
+    display: block;
+    height:8px;
+    text-indent: -999px;
+    overflow: hidden;
+    margin:23px 0 28px;
+}
+
+.login a.google{
+    height:53px;
+    line-height: 53px;
+    background:#FFF url('../../assets/images/login/lg-google.png') 16px center no-repeat;
+    display: block;
+    box-shadow: 0px 7px 27px rgba(208,208,234,0.3);
+    border-radius: 5px;
+
+    margin-bottom:30px;
+
+    color: #090a0a;
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.login a.google:hover{
+    text-decoration: none;
+}
+
+.login p{
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#353535;
+}
+.login p a{
+    color: #2da649;
+}
+
+/*FORM*/
+.login .form-group{
+    margin-bottom:25px;
+}
+.login .form-group input.form-control,
+.login .form-group input:-webkit-autofill,
+.login .form-group input:-internal-autofill-selected,
+.login input:-webkit-autofill{
+    height:55px;
+    color:#b5bdc1;
+    font-size:14px;
+    font-family:'Lato', Arial;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    border-radius: 5px;
+    padding:15px 15px 15px 60px;
+    border:1px solid #d8e1e5;
+    background:#FFF url('../../assets/images/login/ic-login-user.png') 12px center no-repeat;
+}
+.login .form-group input.form-control[type="password"]{
+    background-image:url('../../assets/images/login/ic-login-pass.png') 12px no-repeat;
+}
+.login .form-group a.forgot{
+    font-family: 'Lato', Arial;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #2da649;
+    padding:18px 0 0;
+    display: block;
+    float: left;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b5bdc1;
+  opacity: 1; /* Firefox */
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #b5bdc1;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #b5bdc1;
+}
+
+.login .form-group .btn{margin-right:0px;}
