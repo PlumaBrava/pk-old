@@ -1,0 +1,29 @@
+ng new pk
+ng serve // http://localhost:4200/
+
+firebase login
+firebase init
+
+// Indicar la carpeta donde ángular compila para hacer el deploy en forma mas directa.
+? What do you want to use as your public directory? dist/pktest
+
+? Configure as a single-page app (rewrite all urls to /index.html)? (y/N)
+
+
+//https://github.com/angular/angularfire/blob/HEAD/docs/install-and-setup.md
+npm install firebase @angular/fire --save
+
+// compilación angular
+
+ng build (desarrollo) relacionado con src/environments/environment.ts
+ng build --prod (producción) relacionado con src/environments/environment.prod.ts
+
+en firebase.json reemplazar, para hacer bien el deploy
+
+        "npm --prefix \"$RESOURCE_DIR\" run lint",
+por     "npm --prefix \"%RESOURCE_DIR%\" run lint"
+
+
+// exlcuir de git en .gitignore
+    # funtions
+    /functions/node_modules/
